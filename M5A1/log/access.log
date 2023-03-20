@@ -1,0 +1,430 @@
+
+Request: GET /api/signup at Thu Mar 16 2023 13:22:11 GMT-0700, IP: ::ffff:127.0.0.1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/110.0
+Response Body:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign-Up</title>
+    <!-- <link rel="stylesheet" href="/css/site.css" try and create your own css-->
+</head>
+<body>
+    <main>
+        <form class="product-form" action="/api/signup" method="POST">
+            
+            <div class="form-control mx-auto" style="width: 200px;">
+                <label for="name">User Name</label>
+                <input type="text" name="name" id="name">
+                
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email">
+                
+                <label for="password">Password:</label>
+                <input type="text" name="password" id="password">
+                
+                <label for="confirmPassword">Confirm Password:</label>
+                <input type="text" name="confir
+Response: 200 17.086 ms 
+
+Request: POST /api/signup at Thu Mar 16 2023 13:22:57 GMT-0700, IP: ::ffff:127.0.0.1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/110.0
+Request Body:
+{
+	"name": "Jane Doe",
+	"email": "janedoe@example.com",
+	"password": "janedoe123",
+	"confirmPassword": "janedoe123"
+}
+Response Body:
+{
+	"name": "Jane Doe",
+	"email": "janedoe@example.com",
+	"password": "$2a$10$WwVuVFEx4BkfyIPFwb3Bnet5n.KfvKvcdnIngQc3DPxw.5BYEzF6O",
+	"confirmPassword": "$2a$10$8pXXbZPJdEB4vFR77VmUOuU5yaL6iIuIk/yPzpO1S7RHe6H69K.VO",
+	"_id": "64137aa12aa76cf66802db65",
+	"date": "2023-03-16T20:22:57.153Z",
+	"tokens": [],
+	"__v": 0
+}
+Response: 200 349.486 ms 
+
+Request: GET /api/signup at Thu Mar 16 2023 13:29:36 GMT-0700, IP: ::ffff:127.0.0.1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/110.0
+Response Body:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign-Up</title>
+    <!-- <link rel="stylesheet" href="/css/site.css" try and create your own css-->
+</head>
+<body>
+    <main>
+        <form class="product-form" action="/api/signup" method="POST">
+            
+            <div class="form-control mx-auto" style="width: 200px;">
+                <label for="name">User Name</label>
+                <input type="text" name="name" id="name">
+                
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email">
+                
+                <label for="password">Password:</label>
+                <input type="text" name="password" id="password">
+                
+                <label for="confirmPassword">Confirm Password:</label>
+                <input type="text" name="confir
+Response: 200 52.140 ms 
+
+Request: POST /api/signup at Thu Mar 16 2023 13:32:02 GMT-0700, IP: ::ffff:127.0.0.1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/110.0
+Request Body:
+{
+	"name": "Chris MacDonald",
+	"email": "cmado1@asu.edu",
+	"password": "123456789",
+	"confirmPassword": "123456789"
+}
+Response Body:
+{
+	"name": "Chris MacDonald",
+	"email": "cmado1@asu.edu",
+	"password": "$2a$10$GDm3OWcsJZBtnRRhHff0l.08aldF735iW6DlCY4lpCSZYDme/htyq",
+	"confirmPassword": "$2a$10$vQhRhFzWXkev91.3TCQKrervxQ80QcR.zjiZsueeLDoYeHxEu0Xhy",
+	"_id": "64137cc24750ad4137b0ef47",
+	"date": "2023-03-16T20:32:02.591Z",
+	"tokens": [],
+	"__v": 0
+}
+Response: 200 349.160 ms 
+
+Request: GET /api/signup at Thu Mar 16 2023 13:33:09 GMT-0700, IP: ::ffff:127.0.0.1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/110.0
+Response Body:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign-Up</title>
+    <!-- <link rel="stylesheet" href="/css/site.css" try and create your own css-->
+</head>
+<body>
+    <main>
+        <form class="product-form" action="/api/signup" method="POST">
+            
+            <div class="form-control mx-auto" style="width: 200px;">
+                <label for="name">User Name</label>
+                <input type="text" name="name" id="name">
+                
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email">
+                
+                <label for="password">Password:</label>
+                <input type="text" name="password" id="password">
+                
+                <label for="confirmPassword">Confirm Password:</label>
+                <input type="text" name="confir
+Response: 200 7.253 ms 
+
+Request: POST /api/signup at Thu Mar 16 2023 13:33:37 GMT-0700, IP: ::ffff:127.0.0.1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/110.0
+Request Body:
+{
+	"name": "John Doe",
+	"email": "johndoe@example.com",
+	"password": "987654321",
+	"confirmPassword": "987654321"
+}
+Response Body:
+{
+	"name": "John Doe",
+	"email": "johndoe@example.com",
+	"password": "$2a$10$iYFLjnFlHre6cTcLXqBS/.94.OL0mjh2NwiIVTTF1uwXtbA5uvic.",
+	"confirmPassword": "$2a$10$FF7QoZw0NIZ71i9DbDg0OuaGtlhDuJHnWDXzVL6T6JOBxaYj86B66",
+	"_id": "64137d204750ad4137b0ef49",
+	"date": "2023-03-16T20:33:36.837Z",
+	"tokens": [],
+	"__v": 0
+}
+Response: 200 335.097 ms 
+
+Request: GET /api/signup at Thu Mar 16 2023 13:34:52 GMT-0700, IP: ::ffff:127.0.0.1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/110.0
+Response Body:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign-Up</title>
+    <!-- <link rel="stylesheet" href="/css/site.css" try and create your own css-->
+</head>
+<body>
+    <main>
+        <form class="product-form" action="/api/signup" method="POST">
+            
+            <div class="form-control mx-auto" style="width: 200px;">
+                <label for="name">User Name</label>
+                <input type="text" name="name" id="name">
+                
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email">
+                
+                <label for="password">Password:</label>
+                <input type="text" name="password" id="password">
+                
+                <label for="confirmPassword">Confirm Password:</label>
+                <input type="text" name="confir
+Response: 200 1.770 ms 
+
+Request: GET /api/signup at Thu Mar 16 2023 13:36:07 GMT-0700, IP: ::ffff:127.0.0.1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/110.0
+Response Body:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign-Up</title>
+    <!-- <link rel="stylesheet" href="/css/site.css" try and create your own css-->
+</head>
+<body>
+    <main>
+        <form class="product-form" action="/api/signup" method="POST">
+            
+            <div class="form-control mx-auto" style="width: 200px;">
+                <label for="name">User Name</label>
+                <input type="text" name="name" id="name">
+                
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email">
+                
+                <label for="password">Password:</label>
+                <input type="text" name="password" id="password">
+                
+                <label for="confirmPassword">Confirm Password:</label>
+                <input type="text" name="confir
+Response: 304 21.237 ms 
+
+Request: GET /api/signup at Thu Mar 16 2023 13:36:14 GMT-0700, IP: ::1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+Response Body:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign-Up</title>
+    <!-- <link rel="stylesheet" href="/css/site.css" try and create your own css-->
+</head>
+<body>
+    <main>
+        <form class="product-form" action="/api/signup" method="POST">
+            
+            <div class="form-control mx-auto" style="width: 200px;">
+                <label for="name">User Name</label>
+                <input type="text" name="name" id="name">
+                
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email">
+                
+                <label for="password">Password:</label>
+                <input type="text" name="password" id="password">
+                
+                <label for="confirmPassword">Confirm Password:</label>
+                <input type="text" name="confir
+Response: 200 7.269 ms 
+
+Request: GET /favicon.ico at Thu Mar 16 2023 13:36:14 GMT-0700, IP: ::1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+Response: 404 2.756 ms 
+
+Request: GET /api/signup at Thu Mar 16 2023 13:43:14 GMT-0700, IP: ::ffff:127.0.0.1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/110.0
+Response Body:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign-Up</title>
+    <!-- <link rel="stylesheet" href="/css/site.css" try and create your own css-->
+</head>
+<body>
+    <main>
+        <form class="product-form" action="/api/signup" method="POST">
+            
+            <div class="form-control mx-auto" style="width: 200px;">
+                <label for="name">User Name</label>
+                <input type="text" name="name" id="name">
+                
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email">
+                
+                <label for="password">Password:</label>
+                <input type="text" name="password" id="password">
+                
+                <label for="confirmPassword">Confirm Password:</label>
+                <input type="text" name="confir
+Response: 304 15.832 ms 
+
+Request: GET /api/signup at Thu Mar 16 2023 13:44:33 GMT-0700, IP: ::ffff:127.0.0.1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/110.0
+Response Body:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign-Up</title>
+    <!-- <link rel="stylesheet" href="/css/site.css" try and create your own css-->
+</head>
+<body>
+    <main>
+        <form class="product-form" action="/api/signup" method="POST">
+            
+            <div class="form-control mx-auto" style="width: 200px;">
+                <label for="name">User Name</label>
+                <input type="text" name="name" id="name">
+                
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email">
+                
+                <label for="password">Password:</label>
+                <input type="text" name="password" id="password">
+                
+                <label for="confirmPassword">Confirm Password:</label>
+                <input type="text" name="confir
+Response: 304 14.372 ms 
+
+Request: GET /api/login at Thu Mar 16 2023 13:44:39 GMT-0700, IP: ::ffff:127.0.0.1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/110.0
+Response: 404 8.797 ms 
+
+Request: GET /api/signup at Thu Mar 16 2023 13:44:49 GMT-0700, IP: ::ffff:127.0.0.1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/110.0
+Response Body:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign-Up</title>
+    <!-- <link rel="stylesheet" href="/css/site.css" try and create your own css-->
+</head>
+<body>
+    <main>
+        <form class="product-form" action="/api/signup" method="POST">
+            
+            <div class="form-control mx-auto" style="width: 200px;">
+                <label for="name">User Name</label>
+                <input type="text" name="name" id="name">
+                
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email">
+                
+                <label for="password">Password:</label>
+                <input type="text" name="password" id="password">
+                
+                <label for="confirmPassword">Confirm Password:</label>
+                <input type="text" name="confir
+Response: 304 7.446 ms 
+
+Request: POST /api/signup at Thu Mar 16 2023 13:48:31 GMT-0700, IP: ::ffff:127.0.0.1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/110.0
+Request Body:
+{
+	"name": "Jane Doe",
+	"email": "janedoe@example.com",
+	"password": "159753",
+	"confirmPassword": "159753"
+}
+Response Body:
+{
+	"name": "Jane Doe",
+	"email": "janedoe@example.com",
+	"password": "$2a$10$IKBQyX1ocOSlR9c4HBpMRehBV3Pp3vM/7cI8pCqwXhf9epQelI.Ee",
+	"confirmPassword": "$2a$10$JFn1G7nB9kghRJ/5vK6tTOTzDurglsFaPEazXHw6GguhWDZjJ7ad2",
+	"_id": "6413809f334d93a6d76a83b9",
+	"date": "2023-03-16T20:48:31.124Z",
+	"tokens": [],
+	"__v": 0
+}
+Response: 200 386.103 ms 
+
+Request: GET /register/signup at Sun Mar 19 2023 19:11:43 GMT-0700, IP: ::ffff:127.0.0.1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/111.0
+Response: 404 8.984 ms 
+
+Request: GET /api/signup at Sun Mar 19 2023 19:12:29 GMT-0700, IP: ::ffff:127.0.0.1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/111.0
+Response Body:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign-Up</title>
+    <!-- <link rel="stylesheet" href="/css/site.css" try and create your own css-->
+</head>
+<body>
+    <main>
+        <form class="product-form" action="/api/signup" method="POST">
+            
+            <div class="form-control mx-auto" style="width: 200px;">
+                <label for="name">User Name</label>
+                <input type="text" name="name" id="name" required>
+                
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email" required>
+                
+                <label for="password">Password:</label>
+                <input type="text" name="password" id="password" required>
+                
+                <label for="confirmPassword">Confirm Password:</label>
+                <inp
+Response: 200 44.303 ms 
+
+Request: GET /favicon.ico at Sun Mar 19 2023 19:12:29 GMT-0700, IP: ::ffff:127.0.0.1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/111.0
+Response: - - ms 
+
+Request: GET /register/login at Sun Mar 19 2023 19:12:41 GMT-0700, IP: ::ffff:127.0.0.1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/111.0
+Response: 404 2.517 ms 
+
+Request: GET /api/login at Sun Mar 19 2023 19:13:28 GMT-0700, IP: ::ffff:127.0.0.1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/111.0
+Response: 404 2.360 ms 
+
+Request: GET /api/register at Sun Mar 19 2023 19:14:02 GMT-0700, IP: ::ffff:127.0.0.1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/111.0
+Response: 404 2.655 ms 
+
+Request: GET /api/register at Sun Mar 19 2023 19:14:49 GMT-0700, IP: ::ffff:127.0.0.1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/111.0
+Response: 404 1.404 ms 
+
+Request: GET /api/register at Sun Mar 19 2023 19:15:05 GMT-0700, IP: ::ffff:127.0.0.1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/111.0
+Response: 404 26.410 ms 
+
+Request: GET /api/signup at Sun Mar 19 2023 19:15:20 GMT-0700, IP: ::ffff:127.0.0.1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/111.0
+Response Body:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign-Up</title>
+    <!-- <link rel="stylesheet" href="/css/site.css" try and create your own css-->
+</head>
+<body>
+    <main>
+        <form class="product-form" action="/api/signup" method="POST">
+            
+            <div class="form-control mx-auto" style="width: 200px;">
+                <label for="name">User Name</label>
+                <input type="text" name="name" id="name" required>
+                
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email" required>
+                
+                <label for="password">Password:</label>
+                <input type="text" name="password" id="password" required>
+                
+                <label for="confirmPassword">Confirm Password:</label>
+                <inp
+Response: 304 15.745 ms 
